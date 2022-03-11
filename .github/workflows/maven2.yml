@@ -36,3 +36,13 @@ jobs:
       - name: Step 6 - Listing the build file name
         run: |
           ls '${{ github.workspace }}'
+          echo "------------------------"
+          ls '${{ github.workspace }}'/address
+          echo "------------------------"
+          ls '${{ github.workspace }}'/core-library
+          echo "------------------------"
+          ls '${{ github.workspace }}'/k8
+          echo "------------------------"
+          ls '${{ github.workspace }}'/user
+          echo "------------------------"
+
