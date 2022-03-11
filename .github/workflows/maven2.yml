@@ -37,12 +37,11 @@ jobs:
         run: |
           ls '${{ github.workspace }}'
           echo "------------------------"
-          ls '${{ github.workspace }}'/address
+          ls '${{ github.workspace }}'/address/target
           echo "------------------------"
-          ls '${{ github.workspace }}'/core-library
+          ls '${{ github.workspace }}'/core-library/target
           echo "------------------------"
-          ls '${{ github.workspace }}'/k8
           echo "------------------------"
-          ls '${{ github.workspace }}'/user
+          ls '${{ github.workspace }}'/user/target
           echo "------------------------"
 
